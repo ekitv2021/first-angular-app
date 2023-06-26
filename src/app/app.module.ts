@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { AppComponent } from "./app.component";
+import { SampleComponent } from './sample/sample.component';
 
 @NgModule({
 //here we will define the metadata for running the project
@@ -8,7 +9,8 @@ import { AppComponent } from "./app.component";
         BrowserModule
     ],
     declarations:[
-        AppComponent
+        AppComponent,
+        SampleComponent
     ],
     bootstrap:[
         AppComponent
